@@ -1,5 +1,13 @@
 {
   "formatVersion": 4,
   "name": "走马灯式旋转收纳笔筒",
+  "title": "Rotating Carousel Desk Organizer",
+  "summary": "A rotating carousel pen holder that spins to keep pens, pencils, and small office supplies organized and easy to reach on your desk.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "QY G"
+    }
+  ],
   "artifacts": "rebuild"
 }
