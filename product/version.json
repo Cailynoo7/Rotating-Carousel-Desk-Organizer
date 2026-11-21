@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "current_version": "v10",
+  "numbering_policy": "v1、v2、v3依次递增；每次交付一次有实质修改的产品更新时递增一次，同一轮内部修复不重复递增",
+  "initial_named_version": {
+    "version": "v1",
+    "cad_revisions": {
+      "carousel": "597afd8c7e8d1b594f3d7b931e7fd89f6073d16d56c87716f8e9db46dde109a9"
+    }
+  },
+  "cad_revisions": {
+    "carousel": "fbc235958622149afb23cae38b7f68a142fbec8843574b4560ab009a8f406432"
+  },
+  "versions": {
+    "v1": {
+      "cad_revisions": {
+        "carousel": "597afd8c7e8d1b594f3d7b931e7fd89f6073d16d56c87716f8e9db46dde109a9"
+      }
+    },
+    "v2": {
+      "cad_revisions": {
+        "carousel": "2b9d81aa2cad177c43b92eda1f71b60523dd11f4eb9d25fd65b01edf27424ffc"
+      }
+    },
+    "v3": {
+      "cad_revisions": {
+        "carousel": "a5530eac1d3547b67bd8b666a3e6cc630785b4be71bf8beaca2d879514288c1f"
+      }
+    },
+    "v4": {
+      "cad_revisions": {
+        "carousel": "753dab41eca0d4cb7ccf2443fcba8122fc2414cd06843b00e3663b405e651b2b"
+      }
+    },
+    "v5": {
+      "cad_revisions": {
+        "carousel": "ce85763cd804ba139438209fd1415c04d641842ef4b9ae77cd7d5f36e44d80b8"
+      }
+    },
+    "v6": {
+      "cad_revisions": {
+        "carousel": "ce85763cd804ba139438209fd1415c04d641842ef4b9ae77cd7d5f36e44d80b8"
+      },
+      "update_scope": "白底展示图、样图选择和采购清单；CAD几何沿用v5"
+    },
+    "v7": {
+      "cad_revisions": {
+        "carousel": "f86c06b2bc35cd7e2d6a30da5c761136f7693dd777234d61a3f851127e16c8a4"
+      },
+      "scope": "筒身圆底改为与筒身、顶环一致的削角六边形；保留圆形静止底座及旋转接口；同步白底产品发布图"
+    },
+    "v8": {
+      "cad_revisions": {
+        "carousel": "1c33c02b7283d3f062115320dc9f354a5bf552628fb8f2a4c34e49a94af9b3ca"
+      },
+      "scope": "旋转器改为透明亚克力，直径150mm、总高11mm、上下层各5.5mm；上部组件整体下移8.3mm；同步白底图"
+    },
+    "v9": {
+      "cad_revisions": {
+        "carousel": "1c33c02b7283d3f062115320dc9f354a5bf552628fb8f2a4c34e49a94af9b3ca"
+      },
+      "scope": "白底产品图扩为横向4:3，按11mm旋转器及筒底遮挡修正视觉比例；几何与v8相同"
+    },
+    "v10": {
+      "cad_revisions": {
+        "carousel": "fbc235958622149afb23cae38b7f68a142fbec8843574b4560ab009a8f406432"
+      },
+      "scope": "旋转器直径120mm，总高11mm、上下各5.5mm；同步4:3白底图并删除此前生成发布图"
+    }
+  }
+}

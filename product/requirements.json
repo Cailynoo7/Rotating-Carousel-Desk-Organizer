@@ -1,0 +1,159 @@
+{
+  "requirements": {
+    "product_class": {
+      "value": "mechanical",
+      "source": "user"
+    },
+    "form_factor": {
+      "value": "六棱柱六格笔筒，与筒身、顶环对齐的削角六边形旋转筒底及静止圆底座",
+      "source": "user"
+    },
+    "base_diameter_mm": {
+      "value": 230,
+      "source": "user"
+    },
+    "hexagon_vertex_span_mm": {
+      "value": 220,
+      "source": "user"
+    },
+    "compartments": {
+      "value": 6,
+      "source": "user"
+    },
+    "acrylic_thickness_mm": {
+      "value": 1.5,
+      "source": "user"
+    },
+    "slot_width_mm": {
+      "value": 3.5,
+      "source": "user"
+    },
+    "slot_depth_mm": {
+      "value": 2.5,
+      "source": "user"
+    },
+    "divider_min_thickness_mm": {
+      "value": 6,
+      "source": "user"
+    },
+    "top_access": {
+      "value": "独立可拆六边形顶环固定六面亚克力，换卡时先取环再向上抽板",
+      "source": "user"
+    },
+    "design_direction": {
+      "value": "参考上传图比例，白色主体、六面透明双层亚克力夹日漫卡片，无尺寸标注",
+      "source": "user"
+    },
+    "wall_height_mm": {
+      "value": 164,
+      "source": "default"
+    },
+    "rotation": {
+      "value": "透明亚克力双层旋转器，上下各5.5mm、总高11mm，上下两面分别粘接筒底与底座",
+      "source": "user"
+    },
+    "manufacturing_method": {
+      "value": "fdm",
+      "source": "default"
+    },
+    "material": {
+      "value": "白色PLA主体、透明PMMA侧板、纸卡及外购透明亚克力旋转器",
+      "source": "default"
+    },
+    "print_bed_min_mm": {
+      "value": [
+        240,
+        240,
+        180
+      ],
+      "source": "default"
+    },
+    "load_target_kg": {
+      "value": 1.5,
+      "source": "default"
+    },
+    "artwork": {
+      "value": "从用户上传样图任选六款，用于白底发布展示图；采用金发、蓝发、粉发、紫色星空、绿色花朵和橙色运动款",
+      "source": "user"
+    },
+    "divider_end_finish": {
+      "value": "每个隔板末端左右两个亚克力插槽之间填实填平，不保留第三个凹槽",
+      "source": "user"
+    },
+    "product_version": {
+      "value": "v10",
+      "source": "user"
+    },
+    "version_numbering": {
+      "value": "每次完成产品更新同步递增版本号：v1、v2、v3……",
+      "source": "user"
+    },
+    "divider_top_alignment": {
+      "value": "六个隔板顶面与可拆六边形顶环顶面齐平，不影响顶环固定亚克力和独立拆装",
+      "source": "user"
+    },
+    "panel_slot_height_mm": {
+      "value": 160,
+      "source": "default"
+    },
+    "top_ring_guide_extension": {
+      "value": "顶环下侧固定亚克力的导向边左右延长，接近两端隔板，保留可拆装间隙",
+      "source": "user"
+    },
+    "top_ring_guide_end_clearance_mm": {
+      "value": 0.3,
+      "source": "default"
+    },
+    "turntable_envelope_mm": {
+      "value": {
+        "diameter": 120,
+        "height": 11
+      },
+      "source": "user"
+    },
+    "alignment_recess_mm": {
+      "value": {
+        "diameter": 5,
+        "depth": 2,
+        "faces": [
+          "底座上表面圆心",
+          "六边形筒底下表面圆心"
+        ]
+      },
+      "source": "user"
+    },
+    "adhesive_stack_allowance_mm": {
+      "value": 0,
+      "source": "default"
+    },
+    "turntable_illustrative_seam_mm": {
+      "value": 0,
+      "source": "default"
+    },
+    "top_ring_corner_alignment": {
+      "value": "顶环六处棱角削平，与下方隔板端头的削平面位置及宽度上下对齐",
+      "source": "user"
+    },
+    "publication_image": {
+      "value": "横向4:3白底产品图，表现直径120mm、总高11mm、每层5.5mm的透明旋转器；删除此前的生成发布图",
+      "source": "user"
+    },
+    "procurement_scope": {
+      "value": "统一采购清单，含亚克力、夹层卡纸、旋转器、防滑垫、打印件及粘接耗材；搜索国内型号或链接，无完全匹配产品则保留明确规格",
+      "source": "user"
+    },
+    "rotor_floor": {
+      "value": "与筒身、顶环相同的削角六边形，名义未削角对角跨度220mm，保留6mm底厚和圆心对位浅槽",
+      "source": "user"
+    },
+    "turntable_layer_thickness_mm": {
+      "value": 5.5,
+      "source": "user"
+    },
+    "turntable_material": {
+      "value": "透明亚克力双层旋转器",
+      "source": "user"
+    }
+  },
+  "open_questions": []
+}

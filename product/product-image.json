@@ -1,0 +1,29 @@
+{
+  "version": "v10",
+  "image": "product/references/generated/白底产品图-v10-4比3.png",
+  "pixels": [
+    1448,
+    1086
+  ],
+  "sha256": "ed2a8f8a8ed56556d58d46c259308657fc99bce1e4af31a08f3d47fc8e3523d2",
+  "basis_cad_revision": "fbc235958622149afb23cae38b7f68a142fbec8843574b4560ab009a8f406432",
+  "kind": "AI-assisted product visualization, not a physical photograph or dimension verification",
+  "background": "white",
+  "selected_artwork_ids": [
+    "blonde",
+    "blue",
+    "pink",
+    "purple",
+    "green",
+    "orange"
+  ],
+  "visible_front_artwork_ids": [
+    "blonde",
+    "blue",
+    "pink"
+  ],
+  "note": "横向4:3白底图，旋转器直径120mm、总高11mm、两层各5.5mm，内缩于六边形筒底下方；旧版生成图已按用户要求删除。AI展示图，不是实拍或精确工程投影。",
+  "prompt_summary": "保留4:3白底、白色六格与六款卡面，只将透明旋转器直径从150mm缩至120mm，保留11mm总高和5.5mm分层，遵循筒底遮挡。",
+  "matches_current_geometry": true,
+  "aspect_ratio": "4:3"
+}

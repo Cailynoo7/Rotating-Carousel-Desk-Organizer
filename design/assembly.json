@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "coordinateFrame": "makit-world-z-up",
+  "placements": {},
+  "fits": [],
+  "steps": [
+    {
+      "title": "放平静止底座",
+      "parts": [
+        "carousel:base"
+      ]
+    },
+    {
+      "title": "粘贴六片防滑垫",
+      "note": "背胶硅胶垫放入底面浅窝，压实后将底座放正。",
+      "parts": [
+        "carousel:foot_0",
+        "carousel:foot_1",
+        "carousel:foot_2",
+        "carousel:foot_3",
+        "carousel:foot_4",
+        "carousel:foot_5"
+      ],
+      "from": "-z"
+    },
+    {
+      "title": "对位并粘接旋转器下表面",
+      "note": "上下盘在模型中分开展示，实物是一个外购总成，不要拆开。以下表面圆心对准底座上表面的5mm浅槽圆心，胶接到指定平面。胶种和固化时间按实际材质与说明。",
+      "parts": [
+        "carousel:turntable_lower"
+      ],
+      "from": "+z"
+    },
+    {
+      "title": "确认旋转器上层可自由转动",
+      "note": "此步仅显示同一外购旋转器的上盘；不要往转动缝隙灌胶，产品内部结构未建模。",
+      "parts": [
+        "carousel:turntable_upper"
+      ]
+    },
+    {
+      "title": "对位并粘接筒底",
+      "note": "筒底下表面的5mm浅槽圆心对准旋转器圆心，上表面胶接筒底下表面。模型未计入胶层厚度。按胶粘剂要求完全固化后再加载。",
+      "parts": [
+        "carousel:rotor"
+      ],
+      "from": "+z"
+    },
+    {
+      "title": "插入第1面夹画板",
+      "note": "依次插入内板、纸卡、外板，底边落在筒底。",
+      "parts": [
+        "carousel:acrylic_0_inner",
+        "carousel:card_0",
+        "carousel:acrylic_0_outer"
+      ],
+      "from": "+z"
+    },
+    {
+      "title": "插入第2面夹画板",
+      "note": "依次插入内板、纸卡、外板，底边落在筒底。",
+      "parts": [
+        "carousel:acrylic_1_inner",
+        "carousel:card_1",
+        "carousel:acrylic_1_outer"
+      ],
+      "from": "+z"
+    },
+    {
+      "title": "插入第3面夹画板",
+      "note": "依次插入内板、纸卡、外板，底边落在筒底。",
+      "parts": [
+        "carousel:acrylic_2_inner",
+        "carousel:card_2",
+        "carousel:acrylic_2_outer"
+      ],
+      "from": "+z"
+    },
+    {
+      "title": "插入第4面夹画板",
+      "note": "依次插入内板、纸卡、外板，底边落在筒底。",
+      "parts": [
+        "carousel:acrylic_3_inner",
+        "carousel:card_3",
+        "carousel:acrylic_3_outer"
+      ],
+      "from": "+z"
+    },
+    {
+      "title": "插入第5面夹画板",
+      "note": "依次插入内板、纸卡、外板，底边落在筒底。",
+      "parts": [
+        "carousel:acrylic_4_inner",
+        "carousel:card_4",
+        "carousel:acrylic_4_outer"
+      ],
+      "from": "+z"
+    },
+    {
+      "title": "插入第6面夹画板",
+      "note": "依次插入内板、纸卡、外板，底边落在筒底。",
+      "parts": [
+        "carousel:acrylic_5_inner",
+        "carousel:card_5",
+        "carousel:acrylic_5_outer"
+      ],
+      "from": "+z"
+    },
+    {
+      "title": "装上独立六边形顶环",
+      "note": "导向裙边朝下，顶环落在隔板台阶上。六个削平角面与下方端头上下对齐，上沿齐平，下侧导向端部各留0.3mm间隙，仍可单独取下。",
+      "parts": [
+        "carousel:top_ring"
+      ],
+      "from": "+z"
+    }
+  ],
+  "updatedAt": "2026-11-21T05:11:53.540Z"
+}

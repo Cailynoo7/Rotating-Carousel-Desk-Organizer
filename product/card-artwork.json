@@ -1,0 +1,60 @@
+{
+  "source_image": "product/references/uploads/20261121T052120025Z-1-2.png",
+  "selected_cards": [
+    {
+      "id": "blonde",
+      "sheet_row": 1,
+      "sheet_column": 1,
+      "name": "金发校园彩虹边框"
+    },
+    {
+      "id": "blue",
+      "sheet_row": 1,
+      "sheet_column": 2,
+      "name": "蓝发文具主题"
+    },
+    {
+      "id": "pink",
+      "sheet_row": 1,
+      "sheet_column": 3,
+      "name": "粉发蝴蝶结蛋糕"
+    },
+    {
+      "id": "purple",
+      "sheet_row": 2,
+      "sheet_column": 1,
+      "name": "紫色月亮星空"
+    },
+    {
+      "id": "green",
+      "sheet_row": 2,
+      "sheet_column": 2,
+      "name": "绿色花朵小黄鸭"
+    },
+    {
+      "id": "orange",
+      "sheet_row": 2,
+      "sheet_column": 4,
+      "name": "橙色运动啦啦队"
+    }
+  ],
+  "finished_card_mm": [
+    92,
+    154,
+    0.2
+  ],
+  "print_bleed_mm": 3,
+  "artwork_with_bleed_mm": [
+    98,
+    160
+  ],
+  "minimum_pixels_at_300dpi": [
+    1087,
+    1819
+  ],
+  "minimum_pixels_with_bleed_at_300dpi": [
+    1158,
+    1890
+  ],
+  "placement_note": "成品竖向；保持人物比例，白边补足92:154画幅，不拉伸人物。正式印刷应使用单张高清图；上传的是拼版样图，未生成独立印刷文件。"
+}

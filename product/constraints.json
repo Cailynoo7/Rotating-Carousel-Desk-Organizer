@@ -1,0 +1,118 @@
+{
+  "product_class": "mechanical",
+  "units": "mm",
+  "electrical_wiring": "not_applicable",
+  "print_bed_required": [
+    240,
+    240,
+    180
+  ],
+  "acrylic": {
+    "quantity": 12,
+    "width": 97.25509926170152,
+    "height": 159.6,
+    "thickness": 1.5,
+    "panel_apothem": 91.5,
+    "stack_thickness": 3.2,
+    "slot_width": 3.5,
+    "slot_depth": 2.5,
+    "end_clearance": 0.2,
+    "actual_edge_engagement": 2.3,
+    "end_finish": "两槽之间实体填平，不留第三条凹槽"
+  },
+  "rotation": {
+    "base_diameter": 230,
+    "purchased_unit": {
+      "diameter": 120,
+      "overall_height": 11,
+      "lower_face_z": 6,
+      "upper_face_z": 17,
+      "model_type": "user_dimension_envelope",
+      "illustrative_seam": 0,
+      "product_image_received": false,
+      "material": "clear_acrylic",
+      "layer_thickness": 5.5
+    },
+    "rotor_z_min": 17,
+    "nominal_adhesive_thickness_included": 0,
+    "alignment_recess": {
+      "diameter": 5,
+      "depth": 2,
+      "base_floor_z": 4,
+      "rotor_roof_z": 19
+    },
+    "feet": {
+      "quantity": 6,
+      "diameter": 14,
+      "thickness_including_adhesive": 1.5,
+      "pitch_radius": 99,
+      "recess_depth": 0.5,
+      "z_min": -1
+    },
+    "rotor_floor": {
+      "shape": "clipped_hexagon_matching_body_and_top_ring",
+      "nominal_vertex_circle_diameter": 220,
+      "bbox_xy": [
+        218,
+        191.788860373
+      ],
+      "thickness": 6,
+      "flat_plane_radius": 109
+    }
+  },
+  "top_ring": {
+    "removable": true,
+    "z_min": 180.5,
+    "guide_width": 3.6,
+    "per_side_panel_clearance": 0.2,
+    "overall_height": 187,
+    "height_above_table": 188,
+    "divider_top_aligned": true,
+    "guide_length": 92.05509926170153,
+    "guide_extension_each_end": 2.027549630850764,
+    "guide_end_clearance_to_divider": 0.3,
+    "six_corner_flats_aligned_to_divider": true,
+    "corner_flat_plane_distance_from_axis": 109,
+    "corner_flat_width": 5.669105665070884,
+    "outer_vertical_corner_radius": 0.6
+  },
+  "dividers": {
+    "height_from_floor": 164,
+    "lower_slot_height": 160,
+    "top_extension": 4,
+    "upper_plane_z": 187,
+    "ring_inner_radius": 103,
+    "normal_assembly_clearance": 0.25,
+    "shoulder_top_z": 183
+  },
+  "procurement_targets": {
+    "acrylic_nominal_mm": [
+      97.26,
+      159.6,
+      1.5
+    ],
+    "acrylic_length_width_tolerance_mm": 0.1,
+    "acrylic_thickness_target_mm": [
+      1.45,
+      1.55
+    ],
+    "card_nominal_mm": [
+      92,
+      154,
+      0.2
+    ],
+    "card_thickness_target_mm": [
+      0.18,
+      0.22
+    ],
+    "stack_thickness_acceptance_max_mm": 3.3,
+    "functional_slot_acceptance_min_mm": 3.4,
+    "pad_nominal_mm": {
+      "diameter": 14,
+      "total_thickness_including_adhesive": 1.5
+    },
+    "adhesive_candidate_per_face_mm": 0.132,
+    "predicted_overall_height_with_two_adhesive_layers_mm": 188.264,
+    "note": "采购验收目标为默认建议，不是供应商已承诺公差；当前CAD未加入胶层"
+  }
+}

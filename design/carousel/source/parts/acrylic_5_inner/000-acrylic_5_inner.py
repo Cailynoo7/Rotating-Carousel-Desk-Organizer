@@ -1,0 +1,6 @@
+layout=part("rotor")
+t=param("thickness",1.5)
+h=param("height",159.6)
+panel=Box(t,layout.panel_w,h,align=(Align.CENTER,Align.CENTER,Align.MIN))
+panel.color=srgb("#d4edf1")
+publish("acrylic_5_inner",panel,"第6面内亚克力",material="acrylic")

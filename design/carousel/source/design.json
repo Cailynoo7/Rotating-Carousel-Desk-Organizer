@@ -1,0 +1,1399 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "makit-world-z-up",
+  "targets": [
+    {
+      "id": "rotor",
+      "label": "rotor",
+      "cells": [
+        {
+          "id": "rotor",
+          "target": "rotor",
+          "order": 0,
+          "path": "design/carousel/source/parts/rotor/000-rotor.py",
+          "sha256": "ac9fd60624f8e789748ee2b702f4c7f3297da3a62819b25ccb468eafe3c203aa"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "base",
+      "label": "base",
+      "cells": [
+        {
+          "id": "base",
+          "target": "base",
+          "order": 0,
+          "path": "design/carousel/source/parts/base/000-base.py",
+          "sha256": "75dcb966cf01e503447fdcdd5e8edaafdb034c83d1864e7b8d66e0f9fd4a6dd4"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "acrylic_0_inner",
+      "label": "acrylic_0_inner",
+      "cells": [
+        {
+          "id": "acrylic_0_inner",
+          "target": "acrylic_0_inner",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_0_inner/000-acrylic_0_inner.py",
+          "sha256": "eadeb6beb98ce41e32054869e16dda709efed181019252bfe7abeedc6fa5b0e1"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_0_outer",
+      "label": "acrylic_0_outer",
+      "cells": [
+        {
+          "id": "acrylic_0_outer",
+          "target": "acrylic_0_outer",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_0_outer/000-acrylic_0_outer.py",
+          "sha256": "6ea7a0244759ccda3cc8873f75f70d9a22b0c3d304defd2938e72ca09c353eb9"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_1_inner",
+      "label": "acrylic_1_inner",
+      "cells": [
+        {
+          "id": "acrylic_1_inner",
+          "target": "acrylic_1_inner",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_1_inner/000-acrylic_1_inner.py",
+          "sha256": "c4ad49f43e3ed6589de9a853a9b2a27d20f6852f94f907998a5bc776db35c242"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_1_outer",
+      "label": "acrylic_1_outer",
+      "cells": [
+        {
+          "id": "acrylic_1_outer",
+          "target": "acrylic_1_outer",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_1_outer/000-acrylic_1_outer.py",
+          "sha256": "cc138191f464ed0300f66470b898960d6dafab0c26d735dfee887f2a267e52ff"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_2_inner",
+      "label": "acrylic_2_inner",
+      "cells": [
+        {
+          "id": "acrylic_2_inner",
+          "target": "acrylic_2_inner",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_2_inner/000-acrylic_2_inner.py",
+          "sha256": "a5149fb68d34d79f85a9177bd7b9d7be1139fcc9db4257234cb31b9eb519163f"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_2_outer",
+      "label": "acrylic_2_outer",
+      "cells": [
+        {
+          "id": "acrylic_2_outer",
+          "target": "acrylic_2_outer",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_2_outer/000-acrylic_2_outer.py",
+          "sha256": "2410846fb15e88d343db53eaf1d3318714ba5e9e40c254f639ddb416c717d2aa"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_3_inner",
+      "label": "acrylic_3_inner",
+      "cells": [
+        {
+          "id": "acrylic_3_inner",
+          "target": "acrylic_3_inner",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_3_inner/000-acrylic_3_inner.py",
+          "sha256": "84379515d4fcccdf27d7233d6f94899e9c1776971b379ff84cc897e14c72eb9c"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_3_outer",
+      "label": "acrylic_3_outer",
+      "cells": [
+        {
+          "id": "acrylic_3_outer",
+          "target": "acrylic_3_outer",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_3_outer/000-acrylic_3_outer.py",
+          "sha256": "70b89cdf424dbb37eb2ac46be71adcb00d1997f270797a5037008ba08b2ecd07"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_4_inner",
+      "label": "acrylic_4_inner",
+      "cells": [
+        {
+          "id": "acrylic_4_inner",
+          "target": "acrylic_4_inner",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_4_inner/000-acrylic_4_inner.py",
+          "sha256": "dc26199b1a33eaaa2e2dd583bb39c18d8fe1e694f718cf923895b34c7459299b"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_4_outer",
+      "label": "acrylic_4_outer",
+      "cells": [
+        {
+          "id": "acrylic_4_outer",
+          "target": "acrylic_4_outer",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_4_outer/000-acrylic_4_outer.py",
+          "sha256": "41563a679126a3b1ab11c325715021a971c8f0bf4efdd88ebd35853162bfdd3b"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_5_inner",
+      "label": "acrylic_5_inner",
+      "cells": [
+        {
+          "id": "acrylic_5_inner",
+          "target": "acrylic_5_inner",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_5_inner/000-acrylic_5_inner.py",
+          "sha256": "3cc33b3f54e209fcf36326bdedbb33357333c0ed52fc959b0d7e889458f6045a"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "acrylic_5_outer",
+      "label": "acrylic_5_outer",
+      "cells": [
+        {
+          "id": "acrylic_5_outer",
+          "target": "acrylic_5_outer",
+          "order": 0,
+          "path": "design/carousel/source/parts/acrylic_5_outer/000-acrylic_5_outer.py",
+          "sha256": "1163e70e1b52476949ac75c4b1acd02babb694bc9d4ce8abfaf0c20229e574dc"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "top_ring",
+      "label": "top_ring",
+      "cells": [
+        {
+          "id": "top_ring",
+          "target": "top_ring",
+          "order": 0,
+          "path": "design/carousel/source/parts/top_ring/000-top_ring.py",
+          "sha256": "263c622c911f6d4137adaa35c61c2463a16bec4dce5dbdacdbaa4a8d9475fc33"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "card_0",
+      "label": "card_0",
+      "cells": [
+        {
+          "id": "card_0",
+          "target": "card_0",
+          "order": 0,
+          "path": "design/carousel/source/parts/card_0/000-card_0.py",
+          "sha256": "5cd1e8f23e2f6f0483f868f5abf34e42ff3a9cfa759e1de66292f4aaa05196ee"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "card_1",
+      "label": "card_1",
+      "cells": [
+        {
+          "id": "card_1",
+          "target": "card_1",
+          "order": 0,
+          "path": "design/carousel/source/parts/card_1/000-card_1.py",
+          "sha256": "7f8bc649cdb23e0fc75d602fd71abf148aea1a93820e9a8c5d65f76498de1cd0"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "card_2",
+      "label": "card_2",
+      "cells": [
+        {
+          "id": "card_2",
+          "target": "card_2",
+          "order": 0,
+          "path": "design/carousel/source/parts/card_2/000-card_2.py",
+          "sha256": "2f7439fbce212ead8dd4298edbbd190506b3e3d9b05b0b079cd35441b9681376"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "card_3",
+      "label": "card_3",
+      "cells": [
+        {
+          "id": "card_3",
+          "target": "card_3",
+          "order": 0,
+          "path": "design/carousel/source/parts/card_3/000-card_3.py",
+          "sha256": "994dd2393d84a1b14786e9dfea5b41baf49c2aced369e6b87874526edd126015"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "card_4",
+      "label": "card_4",
+      "cells": [
+        {
+          "id": "card_4",
+          "target": "card_4",
+          "order": 0,
+          "path": "design/carousel/source/parts/card_4/000-card_4.py",
+          "sha256": "5f1fc1545c6dc1cb4d518de5eaae511625759b5be7369aa5cda801a7b8b0b160"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "card_5",
+      "label": "card_5",
+      "cells": [
+        {
+          "id": "card_5",
+          "target": "card_5",
+          "order": 0,
+          "path": "design/carousel/source/parts/card_5/000-card_5.py",
+          "sha256": "0477c7ecdfff83d398b8987c27b939dee77ea261349019cc4a0dd72ae27ea3c3"
+        }
+      ],
+      "dependencies": [
+        "rotor"
+      ]
+    },
+    {
+      "id": "foot_0",
+      "label": "foot_0",
+      "cells": [
+        {
+          "id": "foot_0",
+          "target": "foot_0",
+          "order": 0,
+          "path": "design/carousel/source/parts/foot_0/000-foot_0.py",
+          "sha256": "268e36c852fc8cfbf404cc0a0b55df36f46d130ec1d4366a6eb2f49838a3f185"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "foot_1",
+      "label": "foot_1",
+      "cells": [
+        {
+          "id": "foot_1",
+          "target": "foot_1",
+          "order": 0,
+          "path": "design/carousel/source/parts/foot_1/000-foot_1.py",
+          "sha256": "4176c565ef62d17662bf515d61fdc37bcef5bff1475a1c37ce06bba70223a253"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "foot_2",
+      "label": "foot_2",
+      "cells": [
+        {
+          "id": "foot_2",
+          "target": "foot_2",
+          "order": 0,
+          "path": "design/carousel/source/parts/foot_2/000-foot_2.py",
+          "sha256": "f53ff9753e258949eb5d16be790ab3cd6c35c9b90b7c6d798f6e3308bf05ae79"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "foot_3",
+      "label": "foot_3",
+      "cells": [
+        {
+          "id": "foot_3",
+          "target": "foot_3",
+          "order": 0,
+          "path": "design/carousel/source/parts/foot_3/000-foot_3.py",
+          "sha256": "a540301596ae429640f47515761d3181166495871ccff8052a19fec69218a6b1"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "foot_4",
+      "label": "foot_4",
+      "cells": [
+        {
+          "id": "foot_4",
+          "target": "foot_4",
+          "order": 0,
+          "path": "design/carousel/source/parts/foot_4/000-foot_4.py",
+          "sha256": "2eedc039f409df3a9b26382124ab8de06f397288443a5d4d107ff5ec49eaad71"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "foot_5",
+      "label": "foot_5",
+      "cells": [
+        {
+          "id": "foot_5",
+          "target": "foot_5",
+          "order": 0,
+          "path": "design/carousel/source/parts/foot_5/000-foot_5.py",
+          "sha256": "f0ebd24bd11e017921fd844b7de928e5ab7e8dccd61a04b062305cda9e30093e"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "turntable_lower",
+      "label": "turntable_lower",
+      "cells": [
+        {
+          "id": "turntable_lower",
+          "target": "turntable_lower",
+          "order": 0,
+          "path": "design/carousel/source/parts/turntable_lower/000-turntable_lower.py",
+          "sha256": "891858be04b3c5b8bcafa72df566952d51904c2014410faae326a922756305c5"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "turntable_upper",
+      "label": "turntable_upper",
+      "cells": [
+        {
+          "id": "turntable_upper",
+          "target": "turntable_upper",
+          "order": 0,
+          "path": "design/carousel/source/parts/turntable_upper/000-turntable_upper.py",
+          "sha256": "ff7657295f72f338dfeb043e544d792fdc710e4279e2635c76ac333fa9fecbe0"
+        }
+      ],
+      "dependencies": [
+        "turntable_lower"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "rotor",
+      "target": "rotor",
+      "label": "旋转筒身",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "035a781afc004a9d3b83a9d12dcdc10ec49c14fe1af6fe54d4f9882c00e5220d",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          17
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "base",
+      "target": "base",
+      "label": "静止底座",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "3789f84b47a588227f5325809b145a3d00ea6ed98acd95d7a4a3ddfef2b7ae1a",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_0_inner",
+      "target": "acrylic_0_inner",
+      "label": "第1面内亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "bc3966dde0c14d388fdf43a5b43b3481d586f93c6d5bff4af284bd13a95b4956",
+      "transform": {
+        "positionMm": [
+          78.50520285305937,
+          45.324999999999996,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          30
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_0_outer",
+      "target": "acrylic_0_outer",
+      "label": "第1面外亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "e94cb9fc665ba0b7c52ec5b3f6875219717f1d9826df5f01f93f475dd6c17b61",
+      "transform": {
+        "positionMm": [
+          79.9774460394929,
+          46.17499999999999,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          30
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_1_inner",
+      "target": "acrylic_1_inner",
+      "label": "第2面内亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "cca3e81c3d9f63ca077aadf238339d6cdd40bf4cfad90864394356e35c66fea2",
+      "transform": {
+        "positionMm": [
+          5.550711617135379e-15,
+          90.65,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          90
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_1_outer",
+      "target": "acrylic_1_outer",
+      "label": "第2面外亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "99be9e62896ea836625487507698582f13aed5d2ed701668dcf84fe07079aa12",
+      "transform": {
+        "positionMm": [
+          5.654806595062903e-15,
+          92.35,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          90
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_2_inner",
+      "target": "acrylic_2_inner",
+      "label": "第3面内亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "c907bf127d5127e487d6225bc6e5955ff38fbce07aa9677a5ff5e45905e41c4b",
+      "transform": {
+        "positionMm": [
+          -78.50520285305937,
+          45.324999999999996,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          150
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_2_outer",
+      "target": "acrylic_2_outer",
+      "label": "第3面外亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "902b71f4d13de663e82e4af2765540530b244a26f2475563f02b1b44e2d23144",
+      "transform": {
+        "positionMm": [
+          -79.9774460394929,
+          46.17499999999999,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          150
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_3_inner",
+      "target": "acrylic_3_inner",
+      "label": "第4面内亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "3143343cde4f86a88f751a436e0fd1669b8d8bf6bd841031cbc721345dbb9ec6",
+      "transform": {
+        "positionMm": [
+          -78.50520285305936,
+          -45.32500000000001,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          210
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_3_outer",
+      "target": "acrylic_3_outer",
+      "label": "第4面外亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "3b4c2e48e27bd9a08ee0c61290fbfdb5cededf3796953d8ee634b1cd31f9ed80",
+      "transform": {
+        "positionMm": [
+          -79.9774460394929,
+          -46.175000000000004,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          210
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_4_inner",
+      "target": "acrylic_4_inner",
+      "label": "第5面内亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "b5a6196dbb370f363e2028cafe1ddb3c28438277bd96ab86cc4c3192498ae642",
+      "transform": {
+        "positionMm": [
+          -1.6652134851406134e-14,
+          -90.65,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          270
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_4_outer",
+      "target": "acrylic_4_outer",
+      "label": "第5面外亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "a5137a0ca6061ada86652534a949bebc0eea9202383d968eeb4cec7e03738782",
+      "transform": {
+        "positionMm": [
+          -1.6964419785188708e-14,
+          -92.35,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          270
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_5_inner",
+      "target": "acrylic_5_inner",
+      "label": "第6面内亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "b9c539053c0a6d57e1ae4221d4d4a0c52ec9fada7691f0a6280fb38aba434103",
+      "transform": {
+        "positionMm": [
+          78.50520285305934,
+          -45.325000000000045,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          330
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "acrylic_5_outer",
+      "target": "acrylic_5_outer",
+      "label": "第6面外亚克力",
+      "material": "acrylic",
+      "kind": "generated",
+      "shapeHash": "1025b4b442a6bbcb9570f7b1a14bb0e3be773201c93f723087cac77873f5eaf5",
+      "transform": {
+        "positionMm": [
+          79.97744603949288,
+          -46.17500000000004,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          330
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "top_ring",
+      "target": "top_ring",
+      "label": "可拆六边形顶环",
+      "material": "pla",
+      "kind": "generated",
+      "shapeHash": "69643fa797a71e90891634ecc975b02bd2feb721c2cee093752e85053f2ed393",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          180.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "card_0",
+      "target": "card_0",
+      "label": "第1面卡片",
+      "kind": "generated",
+      "shapeHash": "0e2875e4e458524090ad941118be68fd10f97328404950e906a0bd82c70755ae",
+      "transform": {
+        "positionMm": [
+          79.24132444627614,
+          45.74999999999999,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          30
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "card_1",
+      "target": "card_1",
+      "label": "第2面卡片",
+      "kind": "generated",
+      "shapeHash": "d51edeaddb48bc23c963cbd166cc039fbd82d7ceda9b951b78cc50d31e87fcbd",
+      "transform": {
+        "positionMm": [
+          5.602759106099141e-15,
+          91.5,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          90
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "card_2",
+      "target": "card_2",
+      "label": "第3面卡片",
+      "kind": "generated",
+      "shapeHash": "658dc1d47dd00e91613b486cb249824e7a670f429a8868a83d28899037497e70",
+      "transform": {
+        "positionMm": [
+          -79.24132444627614,
+          45.74999999999999,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          150
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "card_3",
+      "target": "card_3",
+      "label": "第4面卡片",
+      "kind": "generated",
+      "shapeHash": "21cdf9ab399878d2627af8db8732286ad545aaac12b767e62231357b3a57a06e",
+      "transform": {
+        "positionMm": [
+          -79.24132444627614,
+          -45.75000000000001,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          210
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "card_4",
+      "target": "card_4",
+      "label": "第5面卡片",
+      "kind": "generated",
+      "shapeHash": "6c4f341d75d508ae11bae0734042ad35f3b9cdcb189d13f91e493053752a4cfd",
+      "transform": {
+        "positionMm": [
+          -1.680827731829742e-14,
+          -91.5,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          270
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "card_5",
+      "target": "card_5",
+      "label": "第6面卡片",
+      "kind": "generated",
+      "shapeHash": "c8cec1267d3d4541dcbf9d3a1f54d967a50fcbb6ac35183c69b017f78f1ae057",
+      "transform": {
+        "positionMm": [
+          79.24132444627611,
+          -45.75000000000004,
+          23
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          330
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_0",
+      "target": "foot_0",
+      "label": "第1个防滑垫",
+      "material": "silicone",
+      "kind": "generated",
+      "shapeHash": "ba4c47d3315f95b411774dcc9ae58d601b9b4fd4019b930168849579ea2f34eb",
+      "transform": {
+        "positionMm": [
+          99,
+          0,
+          -1
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_1",
+      "target": "foot_1",
+      "label": "第2个防滑垫",
+      "material": "silicone",
+      "kind": "generated",
+      "shapeHash": "4630ee91ea24cba4c3b9acab069d5a6fdfc2e05323dd1172ca6bab9e7619fe26",
+      "transform": {
+        "positionMm": [
+          49.500000000000014,
+          85.73651497465941,
+          -1
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_2",
+      "target": "foot_2",
+      "label": "第3个防滑垫",
+      "material": "silicone",
+      "kind": "generated",
+      "shapeHash": "bc1dce1f1bbebd5a98f70942eb6cb40966b6e994db9ba43b31a0816ccaf24cb6",
+      "transform": {
+        "positionMm": [
+          -49.49999999999998,
+          85.73651497465943,
+          -1
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_3",
+      "target": "foot_3",
+      "label": "第4个防滑垫",
+      "material": "silicone",
+      "kind": "generated",
+      "shapeHash": "a9c730bb3325d8093e27d7389b7be0667ffea0d94d68d5dd59360bd19f0fa345",
+      "transform": {
+        "positionMm": [
+          -99,
+          1.2124003311558797e-14,
+          -1
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_4",
+      "target": "foot_4",
+      "label": "第5个防滑垫",
+      "material": "silicone",
+      "kind": "generated",
+      "shapeHash": "f48bf4d94e85f475e55d88ef2c7a58c1fe868d67ba83455de221f20bc028b826",
+      "transform": {
+        "positionMm": [
+          -49.50000000000004,
+          -85.7365149746594,
+          -1
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "foot_5",
+      "target": "foot_5",
+      "label": "第6个防滑垫",
+      "material": "silicone",
+      "kind": "generated",
+      "shapeHash": "f5b72787bdbd1037487088585480121eb50b929f124a6dfb274ec41ff903659c",
+      "transform": {
+        "positionMm": [
+          49.500000000000014,
+          -85.73651497465941,
+          -1
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "turntable_lower",
+      "target": "turntable_lower",
+      "label": "透明亚克力旋转器下盘",
+      "material": "acrylic",
+      "role": "reference",
+      "kind": "generated",
+      "shapeHash": "ab78b1a8f79c00bc46aed9595148bd363ca32ace988a6f6e6b99aeeebaaba605",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          6
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "turntable_upper",
+      "target": "turntable_upper",
+      "label": "透明亚克力旋转器上盘",
+      "material": "acrylic",
+      "role": "reference",
+      "kind": "generated",
+      "shapeHash": "bc74cec9d3b0a799fa2b8d2e525c1d395311027e5f4ffbb252ff38954afbcb00",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          11.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [],
+  "updatedAt": "2026-11-21T08:11:23.062Z",
+  "parameters": {
+    "rotor": {
+      "rotor_radius": 110,
+      "wall_height": 160,
+      "divider_thickness": 6,
+      "floor_thickness": 6,
+      "panel_apothem": 91.5,
+      "slot_width": 3.5,
+      "slot_depth": 2.5,
+      "post_center_radius": 104.5,
+      "edge_radius": 0.6,
+      "slot_lip_thickness": 2,
+      "corner_flat_setback": 1,
+      "divider_top_extension": 4,
+      "top_ring_inner_radius": 103,
+      "top_ring_clearance": 0.25,
+      "alignment_recess_diameter": 5,
+      "alignment_recess_depth": 2
+    },
+    "base": {
+      "base_diameter": 230,
+      "base_thickness": 6,
+      "edge_radius": 0.6,
+      "foot_pitch_radius": 99,
+      "foot_pocket_diameter": 14.4,
+      "foot_recess_depth": 0.5,
+      "alignment_recess_diameter": 5,
+      "alignment_recess_depth": 2
+    },
+    "acrylic_0_inner": {
+      "thickness": 1.5,
+      "height": 159.6,
+      "side": -1,
+      "face_index": 0
+    },
+    "acrylic_0_outer": {
+      "thickness": 1.5,
+      "height": 159.6,
+      "side": 1,
+      "face_index": 0
+    },
+    "acrylic_1_inner": {
+      "thickness": 1.5,
+      "height": 159.6,
+      "side": -1,
+      "face_index": 1
+    },
+    "acrylic_1_outer": {
+      "thickness": 1.5,
+      "height": 159.6,
+      "side": 1,
+      "face_index": 1
+    },
+    "acrylic_2_inner": {
+      "thickness": 1.5,
+      "height": 159.6,
+      "side": -1,
+      "face_index": 2
+    },
+    "acrylic_2_outer": {
+      "thickness": 1.5,
+      "height": 159.6,
+      "side": 1,
+      "face_index": 2
+    },
+    "acrylic_3_inner": {
+      "thickness": 1.5,
+      "height": 159.6
+    },
+    "acrylic_3_outer": {
+      "thickness": 1.5,
+      "height": 159.6
+    },
+    "acrylic_4_inner": {
+      "thickness": 1.5,
+      "height": 159.6
+    },
+    "acrylic_4_outer": {
+      "thickness": 1.5,
+      "height": 159.6
+    },
+    "acrylic_5_inner": {
+      "thickness": 1.5,
+      "height": 159.6
+    },
+    "acrylic_5_outer": {
+      "thickness": 1.5,
+      "height": 159.6
+    },
+    "top_ring": {
+      "outer_vertex_radius": 110,
+      "inner_vertex_radius": 103,
+      "ring_thickness": 4,
+      "guide_skirt_depth": 2.5,
+      "panel_guide_width": 3.6,
+      "guide_wall_thickness": 1.5,
+      "guide_length": 88,
+      "guide_end_clearance": 0.3,
+      "flat_corner_radius": 0.6
+    },
+    "card_0": {
+      "card_width": 92,
+      "card_height": 154,
+      "card_thickness": 0.2
+    },
+    "card_1": {
+      "card_width": 92,
+      "card_height": 154,
+      "card_thickness": 0.2
+    },
+    "card_2": {
+      "card_width": 92,
+      "card_height": 154,
+      "card_thickness": 0.2
+    },
+    "card_3": {
+      "card_width": 92,
+      "card_height": 154,
+      "card_thickness": 0.2
+    },
+    "card_4": {
+      "card_width": 92,
+      "card_height": 154,
+      "card_thickness": 0.2
+    },
+    "card_5": {
+      "card_width": 92,
+      "card_height": 154,
+      "card_thickness": 0.2
+    },
+    "foot_0": {
+      "pad_diameter": 14,
+      "pad_thickness": 1.5
+    },
+    "foot_1": {
+      "pad_diameter": 14,
+      "pad_thickness": 1.5
+    },
+    "foot_2": {
+      "pad_diameter": 14,
+      "pad_thickness": 1.5
+    },
+    "foot_3": {
+      "pad_diameter": 14,
+      "pad_thickness": 1.5
+    },
+    "foot_4": {
+      "pad_diameter": 14,
+      "pad_thickness": 1.5
+    },
+    "foot_5": {
+      "pad_diameter": 14,
+      "pad_thickness": 1.5
+    },
+    "turntable_lower": {
+      "outside_diameter": 120,
+      "overall_height": 11
+    },
+    "turntable_upper": {
+      "optical_opacity": 0.18
+    }
+  }
+}

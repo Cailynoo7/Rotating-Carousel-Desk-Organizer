@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "printable_part",
+  "summary": "白色六格手拨旋转笔筒，双层亚克力夹画，独立可拆六边形顶环",
+  "required_interfaces": [
+    {
+      "id": "panel_slots",
+      "kind": "internal_fit",
+      "description": "1.5mm双层板与0.2mm卡片装入3.5mm宽2.5mm深开放顶槽",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "rotation",
+      "kind": "internal_fit",
+      "description": "220mm转体在230mm固定底座上360度手拨旋转",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "top_ring",
+      "kind": "internal_fit",
+      "description": "独立可拆六边形顶环固定亚克力上缘，六角削平面与下方隔板端头平面上下对齐",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "center_alignment",
+      "kind": "internal_fit",
+      "description": "底座上表面与筒底下表面的圆心各有直径5mm、深2mm的胶接对位浅槽",
+      "source": "user_requested",
+      "required": true
+    }
+  ],
+  "external_references": [
+    {
+      "id": "reference_image",
+      "source": "user_requested",
+      "description": "用户参考图的整体外观比例，后续要求采用独立可拆顶环",
+      "path": "product/references/uploads/20261121T031821474Z-1-1.png"
+    },
+    {
+      "id": "user_turntable_dimensions",
+      "source": "user_requested",
+      "description": "用户指定透明亚克力双层旋转器，直径120mm、整高11mm、上下层各5.5mm；尚未收到实物内部结构证据"
+    }
+  ],
+  "assembly_story": {
+    "installation": "先以中心浅槽标记对位，将外购旋转器下表面粘在底座，上表面粘在筒底；固化后插入六面夹画板，装上顶环",
+    "maintenance": "取下顶环从上方抽板换卡；胶接后的筒底与底座不直接分离",
+    "user_access": [
+      "六格收纳口",
+      "六面可抽换夹画"
+    ]
+  },
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "organizer",
+        "design_id": "carousel",
+        "description": "六格旋转笔筒总成",
+        "delivery_target": "printable_part",
+        "interface_ids": [
+          "panel_slots",
+          "rotation",
+          "top_ring",
+          "center_alignment"
+        ],
+        "reference_ids": [
+          "reference_image",
+          "user_turntable_dimensions"
+        ]
+      }
+    ]
+  },
+  "open_questions": []
+}

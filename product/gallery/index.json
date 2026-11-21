@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "file": "v10-4-3.jpg",
+      "kind": "photo"
+    },
+    {
+      "file": "cover.jpg",
+      "kind": "render",
+      "generated": true
+    }
+  ]
+}

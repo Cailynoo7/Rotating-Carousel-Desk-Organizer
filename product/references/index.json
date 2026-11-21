@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "file": "generated/白底产品图-v10-4比3.png",
+      "sha256": "ed2a8f8a8ed56556d58d46c259308657fc99bce1e4af31a08f3d47fc8e3523d2",
+      "bytes": 1421551,
+      "addedAt": "2026-11-21T08:13:34.683338+00:00",
+      "share": false
+    },
+    {
+      "file": "uploads/20261121T031821474Z-1-1.png",
+      "sha256": "1a7540b5dc576fd45d6eced725e4fe728914165de161f4f9d14bcab8efc82c06",
+      "bytes": 2057987,
+      "addedAt": "2026-11-21T03:18:21.486Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20261121T052120025Z-1-2.png",
+      "sha256": "e5b5ff7b78da2c79bc9d15d5a62f7da46cbe1c64a5de679093f9fab8e5687682",
+      "bytes": 3482483,
+      "addedAt": "2026-11-21T05:21:48.310Z",
+      "share": false
+    }
+  ]
+}

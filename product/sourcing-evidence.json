@@ -1,0 +1,66 @@
+{
+  "checked_on": "2026-11-21",
+  "cad_revision": "ce85763cd804ba139438209fd1415c04d641842ef4b9ae77cd7d5f36e44d80b8",
+  "sources": [
+    {
+      "role": "printed_parts",
+      "url": "https://www.jlc-3dp.cn/materialDetail/4517cadff49d41c88c814d4056084a54.html",
+      "evidence": "已打开供应商页面：FDM PLA、多色可选、材料精度0.3mm或0.4%以内；不等于功能槽公差确认",
+      "classification": "custom_service_candidate"
+    },
+    {
+      "role": "acrylic",
+      "url": "https://www.zhanyugroup.com/l1/ykljzb.html",
+      "evidence": "搜索索引列厚度1.5–50mm并支持定制，页面抓取超时；成品尺寸和小批量未确认",
+      "classification": "custom_specification_only"
+    },
+    {
+      "role": "acrylic_material_alternative",
+      "url": "https://www.jd.com/jiage/619658a07c0ad07bc5b5.html",
+      "evidence": "京东索引有梅派1200×2400×1.5mm原板，非97.26×159.60mm成品",
+      "classification": "raw_stock_lead_not_selected"
+    },
+    {
+      "role": "card_printing",
+      "url": "https://order.imagecolor.cn/products/31405N",
+      "evidence": "已打开：128–200g铜版纸/亚粉纸、彩印与后道裁切；实厚、拼版和最低数量需询价",
+      "classification": "custom_service_candidate"
+    },
+    {
+      "role": "feet",
+      "url": "https://www.daodianjiaotiao.com/products/xiangjiao/xiangjiaojiaodian/xiangjiaojiaodian476.html",
+      "evidence": "厂家产品索引明确尺寸可按要求定制，未给14×1.5mm现货SKU、含胶厚度或MOQ",
+      "classification": "custom_service_candidate"
+    },
+    {
+      "role": "feet_platform_alternative",
+      "url": "https://yiwugo.com/product/detail/941280058.html",
+      "evidence": "义乌购自粘圆形硅胶脚垫圈，富星日用品厂，支持任意尺寸定制，100个起；此链接抓取受限，依据商家公开索引",
+      "classification": "custom_platform_lead"
+    },
+    {
+      "role": "turntable",
+      "url": "https://www.jd.com/zuozhe/1318c6b44f41b9a96d73.html",
+      "evidence": "京东候选JAENS透明亚克力转盘六寸/新款15cm；缺19.3mm高度，详情未能打开。不能作为已确认替代",
+      "classification": "unverified_candidate_not_substituted"
+    },
+    {
+      "role": "adhesive",
+      "url": "https://www.3m.com.cn/3M/zh_CN/p/d/b40071705/",
+      "evidence": "已打开3M官网：9472LE，300LSE，约0.13mm，检索产品属性为0.132mm不含离型纸",
+      "classification": "model_and_thickness_verified_bond_test_needed"
+    },
+    {
+      "role": "adhesive_domestic_channel",
+      "url": "https://3m.1688.com/",
+      "evidence": "3M中国官网列为阿里巴巴3M官方品牌站；具体9472LE裁切片库存未核实",
+      "classification": "official_channel"
+    }
+  ],
+  "important_limitations": [
+    "不把6寸当成150mm和19.3mm全匹配证据",
+    "200g纸重不等于0.20mm实厚",
+    "防滑垫厚度必须包含背胶",
+    "所有定制件、裁切公差、MOQ、报价及实际库存以询价确认为准；不列未经核实的成交价"
+  ]
+}

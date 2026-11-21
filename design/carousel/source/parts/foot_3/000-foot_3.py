@@ -1,0 +1,5 @@
+d=param("pad_diameter",14)
+t=param("pad_thickness",1.5)
+p=Cylinder(d/2,t,align=(Align.CENTER,Align.CENTER,Align.MIN))
+p.color=srgb("#eeeae4")
+publish("foot_3",p,"第4个防滑垫",material="silicone")
